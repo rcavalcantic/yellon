@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/yellon/static/css/main.5f361e03.chunk.css",
+    "main.js": "/yellon/static/js/main.95eeaef5.chunk.js",
+    "main.js.map": "/yellon/static/js/main.95eeaef5.chunk.js.map",
+    "runtime-main.js": "/yellon/static/js/runtime-main.2aefe847.js",
+    "runtime-main.js.map": "/yellon/static/js/runtime-main.2aefe847.js.map",
+    "static/js/2.235ac071.chunk.js": "/yellon/static/js/2.235ac071.chunk.js",
+    "static/js/2.235ac071.chunk.js.map": "/yellon/static/js/2.235ac071.chunk.js.map",
+    "index.html": "/yellon/index.html",
+    "precache-manifest.7348706e816d5fd51c73988f50dec5f6.js": "/yellon/precache-manifest.7348706e816d5fd51c73988f50dec5f6.js",
+    "service-worker.js": "/yellon/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/yellon/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.235ac071.chunk.js.LICENSE.txt": "/yellon/static/js/2.235ac071.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/yellon/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2aefe847.js",
+    "static/js/2.235ac071.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.95eeaef5.chunk.js"
+  ]
+}

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf33f90ffbdeb7708a3d6647463e1026",
+    "revision": "6cb332b071195cb588f12cebc93934cb",
     "url": "/yellon/index.html"
   },
   {
-    "revision": "eac7a1d4a5ef1fffcb3d",
+    "revision": "30d88602baeeed90872e",
     "url": "/yellon/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yellon/static/js/2.235ac071.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eac7a1d4a5ef1fffcb3d",
-    "url": "/yellon/static/js/main.95eeaef5.chunk.js"
+    "revision": "30d88602baeeed90872e",
+    "url": "/yellon/static/js/main.7172b8fc.chunk.js"
   },
   {
     "revision": "8dc2f3d1897ea5a6ce52",
     "url": "/yellon/static/js/runtime-main.2aefe847.js"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/yellon/static/media/logo.5d5d9eef.svg"
+    "revision": "4faddd19f95270b939ca2ff24625b1f8",
+    "url": "/yellon/static/media/yellon.4faddd19.jpeg"
   }
 ]);

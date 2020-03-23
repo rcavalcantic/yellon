@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f361e03.chunk.css",
-    "main.js": "/static/js/main.9646bbcd.chunk.js",
-    "main.js.map": "/static/js/main.9646bbcd.chunk.js.map",
+    "main.css": "/static/css/main.63601a86.chunk.css",
+    "main.js": "/static/js/main.685f3e07.chunk.js",
+    "main.js.map": "/static/js/main.685f3e07.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2015c939.js",
     "runtime-main.js.map": "/static/js/runtime-main.2015c939.js.map",
-    "static/js/2.235ac071.chunk.js": "/static/js/2.235ac071.chunk.js",
-    "static/js/2.235ac071.chunk.js.map": "/static/js/2.235ac071.chunk.js.map",
+    "static/js/2.d6f370b4.chunk.js": "/static/js/2.d6f370b4.chunk.js",
+    "static/js/2.d6f370b4.chunk.js.map": "/static/js/2.d6f370b4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e96a44951ae6ae55f7c68a0c6ed33e3d.js": "/precache-manifest.e96a44951ae6ae55f7c68a0c6ed33e3d.js",
+    "precache-manifest.c7af21895d76ed32868ed4c313c1536a.js": "/precache-manifest.c7af21895d76ed32868ed4c313c1536a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.235ac071.chunk.js.LICENSE.txt": "/static/js/2.235ac071.chunk.js.LICENSE.txt",
+    "static/css/main.63601a86.chunk.css.map": "/static/css/main.63601a86.chunk.css.map",
+    "static/js/2.d6f370b4.chunk.js.LICENSE.txt": "/static/js/2.d6f370b4.chunk.js.LICENSE.txt",
+    "static/media/teatro-amazonas.jpg": "/static/media/teatro-amazonas.415bca98.jpg",
     "static/media/yellon.jpeg": "/static/media/yellon.4faddd19.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.2015c939.js",
-    "static/js/2.235ac071.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.9646bbcd.chunk.js"
+    "static/js/2.d6f370b4.chunk.js",
+    "static/css/main.63601a86.chunk.css",
+    "static/js/main.685f3e07.chunk.js"
   ]
 }

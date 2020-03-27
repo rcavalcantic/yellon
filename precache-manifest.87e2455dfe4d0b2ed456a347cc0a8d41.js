@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb94dd454a11907dda150095db4eae27",
+    "revision": "33848b7868d54f032fca9aa2c8e953ba",
     "url": "/index.html"
   },
   {
-    "revision": "d9c48237f14fc1a88645",
-    "url": "/static/css/main.63601a86.chunk.css"
+    "revision": "927719a0c5f0e58a0d83",
+    "url": "/static/css/main.a33ad795.chunk.css"
   },
   {
     "revision": "cdf104250c4a2386b9e6",
@@ -16,19 +16,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.d6f370b4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d9c48237f14fc1a88645",
-    "url": "/static/js/main.685f3e07.chunk.js"
+    "revision": "927719a0c5f0e58a0d83",
+    "url": "/static/js/main.e861bd51.chunk.js"
   },
   {
     "revision": "6161ed581bee8e59146c",
     "url": "/static/js/runtime-main.2015c939.js"
   },
   {
-    "revision": "415bca98ec32f6c375e4df66075838ef",
-    "url": "/static/media/teatro-amazonas.415bca98.jpg"
+    "revision": "a67edff6e03ada2f5e69d09fd16de7e5",
+    "url": "/static/media/logotipo.a67edff6.png"
   },
   {
-    "revision": "4faddd19f95270b939ca2ff24625b1f8",
-    "url": "/static/media/yellon.4faddd19.jpeg"
+    "revision": "415bca98ec32f6c375e4df66075838ef",
+    "url": "/static/media/teatro-amazonas.415bca98.jpg"
   }
 ]);

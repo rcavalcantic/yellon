@@ -3,7 +3,6 @@ import styled from 'styled-components'
 const Header = styled.header`
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
 `
 
@@ -12,9 +11,10 @@ const HeaderWrapper = styled.div`
 `
 
 const Logo = styled.img`
-  width: 64px;
-  height: 64px;
-  border-radius: 50%
+  max-height: 200px;
+  max-width: 200px;
+  margin-left: 256px;
+  margin-top: -50px;
 `
 
 const MenuButton = styled.button`
@@ -29,6 +29,7 @@ const MenuButton = styled.button`
   font-size: 22px;
   cursor: pointer;
   font-weight: bolder;
+  margin-right: 256px;
 
   &:hover {
     border: solid;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Header, HeaderWrapper, Logo, MenuButton } from './styles' 
-import yellonLogo from '../../static/images/yellon.jpeg'
+import yellonLogo from '../../static/images/logotipo.png'
 
 export default class Hero extends Component {
   render() {

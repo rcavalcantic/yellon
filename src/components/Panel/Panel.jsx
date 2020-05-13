@@ -1,16 +1,18 @@
 import React, { Component } from 'react'
-import { PanelTitle, Resume } from './styles'
+import { Container, PanelTitle, Resume } from './styles'
 
 export default class Panel extends Component {
   render() {
     return(
-      <>
-        {/* <PanelTitle>Fique ligado e saia na frente.</PanelTitle>
+      <Container>
+        <PanelTitle>A AGÊNCIA</PanelTitle>
+        <div style={{ borderLeft: 'solid 2px black', height: '40%', margin: 'auto 16px'}}></div>
         <Resume>
-          <h2>Seja On, Seja Off, Seja YellOn!</h2>
-          <span>i</span>
-        </Resume> */}
-      </>
+          Focados no <strong style={{ display: 'contents'}}>ON</strong> e no <strong style={{ display: 'contents'}}>OFF</strong>, nosso objetivo vai além de criar postagens para
+          redes sociais e materiais para impressão. Nós criamos <strong style={{ display: 'contents'}}>CONTEÚDO</strong> que gera 
+          <strong style={{ display: 'contents'}}> RESULTADOS</strong> para sua empresa.
+        </Resume>
+      </Container>
     )
   }
 }

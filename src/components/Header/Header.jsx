@@ -28,15 +28,19 @@ export default function Hero() {
         <Sidebar>
           <LogoSidebar src={yellonOutline} alt="menu lateral seja on"/>
           <li style={{ display: "grid", justifyContent: "start", lineHeight: 0 }}>
-            <ul style={{ fontSize: '36px', color: 'black' }}>Home</ul>
-            <ul style={{ fontSize: '36px', color: 'black' }}>A Agência</ul>
-            <ul style={{ fontSize: '36px', color: 'black' }}>Portifólio</ul>
-            <ul style={{ fontSize: '36px', color: 'black' }}>Team Yellon</ul>
-            <ul style={{ fontSize: '36px', color: 'black' }}>Contatos</ul>
+            <ul style={{ fontSize: '28px', color: 'black', cursor: 'pointer' }}>Home</ul>
+            <ul style={{ fontSize: '28px', color: 'black', cursor: 'pointer' }}>A Agência</ul>
+            <ul style={{ fontSize: '28px', color: 'black', cursor: 'pointer' }}>Portifólio</ul>
+            <ul style={{ fontSize: '28px', color: 'black', cursor: 'pointer' }}>Team Yellon</ul>
+            <ul style={{ fontSize: '28px', color: 'black', cursor: 'pointer' }}>Contatos</ul>
           </li>
           <div style={{ margin: '32px'}}>
+            <a href="https://www.instagram.com/yellonpublicidade/" target="blank">
             <img style={{ width: '36px'}} src={instagramIcon} alt={"Instagram icone"}/>
+            </a>
+            <a href="https://www.facebook.com/yellonpublicidade/" target="blank">
             <img style={{ width: '36px', marginLeft: '-10px'}} src={facebookIcon} alt={"Facebook icone"}/>
+            </a>
           </div>
         </Sidebar>
       }

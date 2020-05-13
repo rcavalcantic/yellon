@@ -1,34 +1,25 @@
 import styled from 'styled-components'
 
 const PanelTitle = styled.div`
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 64px;
+  display: flex;
+  margin: auto 0 auto auto;
   font-weight: bolder;
+  font-size: large;
+  letter-spacing: 1px;
 `
+
 const Resume = styled.div`
-  position: fixed;
-  bottom: 8px;
-  left: 16px;
-  font-size: 18px;
-  margin-left: 128px;
+  display: flex;
+  margin: auto auto auto 0;
+  width: 45%;
+  font-weight: lighter;
+`
 
-  > h2 {
-    font-weight: normal;
-  }
-
-  > span {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    border: solid;
-    border-width: 0.5px;
-    &:hover {
-
-    }
-  }
+const Container = styled.div`
+  height: 140px;
+  background-color: white;
+  color: black;
+  display: flex;
 ` 
 
-export { PanelTitle, Resume}
+export { Container, PanelTitle, Resume}

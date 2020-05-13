@@ -82,7 +82,7 @@ const Sidebar = styled.div`
     transition: width 2s;
     height: 100%;
     width: 22%;
-    margin-top: 64px;
+    margin-top: 70px;
   }
 `
 

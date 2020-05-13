@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Gotham";
-  src: url("./static/font/Gotham-Nights-2.ttf");
+  src: url("./static/font/Gotham-Medium.ttf");
 }
 
 body {
   margin: 0;
   background-color: black;
   font-family: "Gotham";
-  src: url("./static/font/Gotham-Nights-2.ttf");
+  src: url("./static/font/Gotham-Medium.ttf");
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: "Gotham";
-  src: url("./static/font/Gotham-Nights-2.ttf");
+  src: url("./static/font/Gotham-Medium.ttf");
 }

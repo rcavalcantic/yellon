@@ -37,10 +37,17 @@
 				filter: none;
 			}
 
+			.subtitle-home {
+				background-color: rgba(0, 0, 0, 0.5);
+				background-clip: content-box;
+				display: initial;
+			}
+
 			@media (max-width: 768px) {
 					.hide-for-mobile {
 							display: none !important;
 					}
+
 			}
 			</style>
   </head>
@@ -72,8 +79,8 @@
     		<div class="bg-after d-flex align-self-stretch"></div>
     		<div class="text">
     			<div class="desc pt-5">
-	    			<span class="subheading">A Agência</span>
-	    			<h2 class="mb-4">Focados no on e no off, somos uma agência jovem e criativa que desenvolve conteúdos estratégicos. Alavancamos seu negócio e geramos resultados para sua empresa.</h2>
+	    			<span style="display: table;" class="subheading">A Agência</span>
+	    			<h2 class="mb-4 subtitle-home">Focados no on e no off, somos uma agência jovem e criativa que desenvolve conteúdos estratégicos. Alavancamos seu negócio e geramos resultados para sua empresa.</h2>
 	    			<!-- <h3 style="color: white;" class="mb-4">Nós criamos CONTEÚDOS que geram RESULTADOS para sua empresa.</h3 style="color: white;"> -->
 	    			<!-- <p><a href="https://web.whatsapp.com/send?phone=+5592991873520" target="_blank" class="btn-custom py-3 pr-2">Manda um Zap</a></p> -->
     			</div>
@@ -81,7 +88,7 @@
     	</div>
     	<div class="third about-img">
     		<div id="home" class="video-hero" style="height: 750px; background-image: url(images/horizontal1.png); background-size:cover; background-position: center center;">
-					<a class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=99bQHWfKm5s',containment:'#home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, quality:'default'}"></a>
+					<a id="video-ytb" class="player hide-for-mobile" data-property="{videoURL:'https://www.youtube.com/watch?v=99bQHWfKm5s',containment:'#home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, quality:'default'}"></a>
 					<!-- <a class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=iia8HIsvqmw&list=PLKTlP51GPmJz_ej9d_4OUAh65PMS8jn2n&index=4',containment:'#home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, quality:'default'}"></a> -->
 					<!-- <a class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=qYmIcRlzivk?start=0&end=12&version=3&controls=0',containment:'#home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, quality:'default'}"></a> -->
 				</div>
@@ -980,7 +987,20 @@
   <script src="js/scrollax.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+		function hideVideo(x) {
+			if (x.matches) { // If media query matches
+			document.getElementById("wrapper_video-ytb").style.display = "none"
+			} else {
+			document.getElementById("wrapper_video-ytb").style.display = "initial"
+			}
+		}
+
+		var x = window.matchMedia("(max-width: 700px)")
+		hideVideo(x) // Call listener function at run time
+		x.addListener(hideVideo) // Attach listener function on state changes
+	</script>
     
   </body>
 </html>
